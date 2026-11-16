@@ -2,7 +2,26 @@
 
 ### Global Procurement & Supplier Intelligence Platform
 
-SupplyMesh is a proposed multi-tenant platform that helps organizations manage suppliers, procurement requests, approval workflows, purchase orders, invoices, and payments.
+## Project Overview
+
+SupplyMesh is a multi-tenant procurement and supplier intelligence platform designed to simplify and centralize organizational procurement operations.
+
+It helps organizations manage suppliers, create purchase requests, handle approval workflows, generate purchase orders, and track invoices and payments in one centralized platform.
+
+The platform focuses on improving procurement efficiency, maintaining transparency, and ensuring secure organization-level data management.
+
+## Key Features
+
+- **Organization Management:** Manage organizations, users, and departments.
+- **Role-Based Access Control:** Manage roles and permissions.
+- **Supplier Management:** Register, manage, and verify suppliers.
+- **Supplier Intelligence:** Track supplier documents and performance.
+- **Procurement Management:** Create and manage purchase requests.
+- **Approval Workflows:** Handle multi-level approval processes.
+- **Purchase Order Management:** Generate and manage purchase orders.
+- **Invoice Management:** Submit and verify supplier invoices.
+- **Payment Tracking:** Manage and track invoice payments.
+- **Audit Logging:** Track important system activities.
 
 ## Technology Stack
 
@@ -14,17 +33,6 @@ SupplyMesh is a proposed multi-tenant platform that helps organizations manage s
 - **Background Jobs:** BullMQ
 - **File Storage:** S3-Compatible Storage
 - **Architecture:** Modular Monolith
-
-## Key Features
-
-- Organization and User Management
-- Role-Based Access Control (RBAC)
-- Supplier Management
-- Procurement Request Management
-- Multi-Level Approval Workflows
-- Purchase Order Management
-- Invoice and Payment Management
-- Audit Logging
 
 ## Documentation
 
@@ -41,10 +49,11 @@ SupplyMesh is a proposed multi-tenant platform that helps organizations manage s
 | 09 | [MVP vs Future Scope](docs/09-mvp-future-scope.md) |
 | 10 | [Risk and Scalability Analysis](docs/10-risk-scalability-analysis.md) |
 
+## ER Diagram
+
+[View SupplyMesh ER Diagram](https://dbdiagram.io/d/6afb14b0d4a729077dfeda3e)
+
 ## Project Scope
 
 This is a design-first engineering project focused on product requirements, database design, system architecture, API planning, and technical documentation.
 
-## ER Diagram
-
-[View SupplyMesh ER Diagram](https://dbdiagram.io/d/6afb14b0d4a729077dfeda3e)
