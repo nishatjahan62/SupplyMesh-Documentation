@@ -6,9 +6,9 @@ User Journey Diagrams illustrate how different users interact with the SupplyMes
 
 These diagrams represent the main workflows, user actions, system responses, and alternative paths throughout the procurement lifecycle.
 
-## 2. Actors
+## 2. Roles
 
-| Actor | Responsibility |
+| Role | Responsibility |
 |---|---|
 | Organization Owner | Manages the organization, users, and settings |
 | Procurement Manager | Manages suppliers and procurement activities |
@@ -19,7 +19,7 @@ These diagrams represent the main workflows, user actions, system responses, and
 
 ## 3. Organization Registration and Setup
 
-**Actor:** Organization Owner
+**Role:** Organization Owner
 
 **Journey:**
 1. Visits the SupplyMesh platform.
@@ -46,7 +46,7 @@ flowchart TD
 
 ## 4. User Invitation and Role Assignment
 
-**Actor:** Organization Owner
+**Role:** Organization Owner
 
 **Journey:**
 1. Opens user management.
@@ -75,7 +75,7 @@ flowchart TD
 
 ## 5. Supplier Registration and Verification
 
-**Actor:** Supplier, Procurement Manager
+**Role:** Supplier, Procurement Manager
 
 **Journey:**
 1. Supplier submits registration information.
@@ -105,7 +105,7 @@ flowchart TD
 
 ## 6. Procurement Request Creation and Submission
 
-**Actor:** Employee
+**Role:** Employee
 
 **Journey:**
 1. Opens the procurement module.
@@ -135,7 +135,7 @@ flowchart TD
 
 ## 7. Multi-Level Approval Workflow
 
-**Actor:** Department Manager, Procurement Manager
+**Role:** Department Manager, Procurement Manager
 
 **Journey:**
 1. Approver receives a purchase request.
@@ -165,7 +165,7 @@ flowchart TD
 
 ## 8. Purchase Order Generation
 
-**Actor:** Procurement Manager
+**Role:** Procurement Manager
 
 **Journey:**
 1. Opens an approved procurement request.
@@ -195,7 +195,7 @@ flowchart TD
 
 ## 9. Invoice Submission and Verification
 
-**Actor:** Supplier, Finance Officer
+**Role:** Supplier, Finance Officer
 
 **Journey:**
 1. Supplier submits an invoice against a purchase order.
@@ -224,7 +224,7 @@ flowchart TD
 
 ## 10. Payment Processing
 
-**Actor:** Finance Officer
+**Role:** Finance Officer
 
 **Journey:**
 1. Opens an approved invoice.
